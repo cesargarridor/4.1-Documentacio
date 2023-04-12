@@ -1,3 +1,9 @@
+/**
+ * Esta clase me va a servir para aprender a documentar con javadoc
+ * @author DIOS Cesar
+ * @version 0.0.2
+ */
+
 package ies;
 
 public class Empleado {
@@ -19,7 +25,7 @@ public class Empleado {
 		this.salario = salario;
 		this.dept = dept;
 	}
-	
+
 	public Empleado(int emp_no, String nombre, Double salario, Departamento dept) {
 		this.emp_no = emp_no;
 		this.nombre = nombre;
@@ -66,8 +72,7 @@ public class Empleado {
 	public void setSalario(Double salario) {
 		this.salario = salario;
 	}
-	
-	
+
 	public Departamento getDept() {
 		return dept;
 	}
@@ -75,14 +80,14 @@ public class Empleado {
 	public void setDept(Departamento dept) {
 		this.dept = dept;
 	}
-	
+
 	public void subidasalario(Double subida) {
 		salario = salario + subida;
 	}
-	
-	private boolean comprobar(){
-		if (nombre.equals("")){
-			
+
+	private boolean comprobar() {
+		if (nombre.equals("")) {
+
 			return false;
 		}
 		return true;
