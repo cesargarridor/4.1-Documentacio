@@ -40,7 +40,7 @@ public class Empleado {
 	}
 
 	/**
-	 * La inicializacion de los atributos numero de
+	 * La inicializacion de los atributos nmero de
 	 * empleado,nombre,salario
 	 * 
 	 * @param emp_no  numero del empleado
